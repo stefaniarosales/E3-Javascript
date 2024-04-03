@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  /* outline: 1px solid rgb(24, 46, 187); */
+}
+
+main {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: rgba(220, 217, 217, 0.895);
+}
+
+#contenedor {
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 3rem;
+}
+
+#inputLupa {
+  display: flex;
+  gap: 6px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0; /* Elimina el espacio alrededor de los botones */
+}
+
+#buscarId {
+  padding: 0 10px;
+  border: none;
+  border-radius: 50px;
+}
+
+input[type="number"]:focus {
+  outline: none;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+p {
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+#btn {
+    all: unset;
+    cursor: pointer;
+}
+
+#card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  outline: 1px solid;
+  border-radius: 30px;
+}
+#card h2{
+  font-size: 40px;
+}
+#card p{
+  font-size: 16px;
+  font-weight: 200;
+}
+#card img{
+  border-radius: 40px;
+  padding: 20px;
+}
